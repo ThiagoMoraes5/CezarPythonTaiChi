@@ -1,0 +1,6 @@
+a1 = input('digite algo ')
+print(f'e um numero {a1.isnumeric()}')
+print(f'ele tem letra maiuscula {a1.isupper()}')
+print(f'é numero ou letra {a1.isalnum()}')
+print(f'é letra e numero {a1.isalpha()}')
+print(f'é maiusculo {a1.islower()}')
